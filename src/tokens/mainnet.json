@@ -1,18 +1,18 @@
 [
   {
-    "chainId": 1,
-    "address": "0x362bc847a3a9637d3af6624eec853618a43ed7d2",
     "name": "PARSIQ",
+    "address": "0x362bc847A3a9637d3af6624EeC853618a43ed7D2",
     "symbol": "PRQ",
     "decimals": 18,
+    "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/11973/thumb/DsNgK0O.png?1596590280"
   },
   {
-    "chainId": 1,
-    "address": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f",
     "name": "Synthetix Network T",
+    "address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
     "symbol": "SNX",
     "decimals": 18,
+    "chainId": 1,
     "logoURI": "https://assets.coingecko.com/coins/images/3406/thumb/SNX.png?1598631139"
   }
- ]
+]

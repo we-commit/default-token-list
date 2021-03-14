@@ -1,32 +1,33 @@
 {
-  "name": "@uniswap/default-token-list",
-  "version": "2.0.0",
-  "description": "◦ The Uniswap default token list",
-  "main": "build/uniswap-default.tokenlist.json",
+  "name": "@trojan/default-token-list",
+  "version": "1.0.0",
+  "description": "The Trojan Finance default token list",
+  "main": "build/trojan-default.tokenlist.json",
   "scripts": {
     "test": "mocha",
-    "build": "rimraf build && mkdir -p build && node src/write.js > build/uniswap-default.tokenlist.json",
+    "build": "rimraf build && mkdir -p build && node src/write.js > build/trojan-default.tokenlist.json",
     "prepublishOnly": "npm test && npm run build"
   },
   "files": [
-    "build/uniswap-default.tokenlist.json"
+    "build/trojan-default.tokenlist.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uniswap/default-token-list.git"
+    "url": "git+https://github.com/we-commit/default-token-list.git"
   },
   "keywords": [
-    "uniswap",
+    "trojan",
+    "finance",
     "default",
     "token",
     "list"
   ],
-  "author": "Moody Salem",
+  "author": "1DevNDogs",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Uniswap/default-token-list/issues"
+    "url": "https://github.com/we-commit/default-token-list/issues"
   },
-  "homepage": "https://github.com/Uniswap/default-token-list#readme",
+  "homepage": "https://github.com/we-commit/default-token-list#readme",
   "devDependencies": {
     "@ethersproject/address": "^5.0.2",
     "@uniswap/token-lists": "^1.0.0-beta.8",
