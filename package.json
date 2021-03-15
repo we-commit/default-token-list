@@ -1,5 +1,5 @@
 {
-  "name": "@trojan/default-token-list",
+  "name": "@1devndogs/default-token-list",
   "version": "1.0.0",
   "description": "The Trojan Finance default token list",
   "main": "build/trojan-default.tokenlist.json",
@@ -29,11 +29,15 @@
   },
   "homepage": "https://github.com/we-commit/default-token-list#readme",
   "devDependencies": {
-    "@ethersproject/address": "^5.0.2",
-    "@uniswap/token-lists": "^1.0.0-beta.8",
-    "ajv": "^6.12.3",
-    "chai": "^4.2.0",
-    "mocha": "^8.0.1",
+    "@ethersproject/address": "^5.0.11",
+    "@uniswap/token-lists": "^1.0.0-beta.19",
+    "ajv": "^6.12.6",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
     "rimraf": "^3.0.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
